@@ -7,7 +7,19 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-.centered {
+.container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text {
     font-size: 2em;
+}
+
+.centered-image {
+    max-width: 100%;
+    height: auto;
 }
